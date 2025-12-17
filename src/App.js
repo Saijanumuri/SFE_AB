@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <label for="FeedID">FeedID: </label>
+      <input  id="FeedID" name="FeedID" /><br/><br/>
+      <label for="cd">CD: </label>
+      <input  id="cd" name="cd" /><br/><br/>
+      <label for="ap">AP: </label>
+      <input  id="ap" name="ap" /><br/><br/>
+      <label for="sp">SP: </label>
+      <input  id="sp" name="sp" /><br/><br/>
+      <label for="fp">CD: </label>
+      <input  id="fp" name="fp" />
+      
     </div>
+
   );
 }
 
